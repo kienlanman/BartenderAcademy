@@ -1,0 +1,52 @@
+name: BartenderAcademy
+options:
+  bundleIdPrefix: com.spmedhelp.bartenderacademy
+  deploymentTarget:
+    iOS: "17.0"
+configs:
+  Debug: debug
+  Release: release
+targets:
+  BartenderAcademy:
+    type: application
+    platform: iOS
+    deploymentTarget: "17.0"
+    sources:
+      - path: BartenderAcademy
+    info:
+      path: Generated-Info.plist
+      properties:
+        UILaunchScreen: {}
+        UISupportedInterfaceOrientations:
+          - UIInterfaceOrientationPortrait
+          - UIInterfaceOrientationLandscapeLeft
+          - UIInterfaceOrientationLandscapeRight
+        UISupportedInterfaceOrientations~ipad:
+          - UIInterfaceOrientationPortrait
+          - UIInterfaceOrientationPortraitUpsideDown
+          - UIInterfaceOrientationLandscapeLeft
+          - UIInterfaceOrientationLandscapeRight
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.spmedhelp.bartenderacademy
+        TARGETED_DEVICE_FAMILY: "1,2"
+        SWIFT_VERSION: "5.0"
+        DEVELOPMENT_ASSET_PATHS: ""
+        ENABLE_PREVIEWS: "YES"
+        CODE_SIGN_STYLE: Automatic
+        DEVELOPMENT_TEAM: VNX29274QG
+schemes:
+  BartenderAcademy:
+    build:
+      targets:
+        BartenderAcademy: all
+    run:
+      config: Debug
+    test:
+      config: Debug
+    profile:
+      config: Release
+    analyze:
+      config: Debug
+    archive:
+      config: Release

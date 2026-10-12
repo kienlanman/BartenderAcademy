@@ -1,0 +1,486 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0DE799F753EA936B89E2E23B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55103F1B811FD7388E4553F8 /* Assets.xcassets */; };
+		135AEF7C6F1F2E57F606A456 /* FlashcardDeckView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90D92BDB0B045E1057A38B92 /* FlashcardDeckView.swift */; };
+		1777E680038139B3EEAA0325 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22CEB031B737CC94DC7F3CB1 /* HomeView.swift */; };
+		2CB02A0DAD554629CB4DF375 /* FlashcardData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8BB0A977AAE103F9D3F4BDC /* FlashcardData.swift */; };
+		2DEB4AB0B8B92EB4865F84D6 /* BartenderAcademyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EC82E2ACA27F901F6434F26 /* BartenderAcademyApp.swift */; };
+		3315A9CA7003E8C9AD9BD683 /* UserProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185DF681BCC47F84B5FCC0D3 /* UserProgress.swift */; };
+		389386C5466BCCAA55F7DD9E /* Flashcard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79BD72169A93660AA4E549FC /* Flashcard.swift */; };
+		3CFA2FC520ABEC6C40A24B07 /* RecipeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C20E2C42EE1CBEEB593BFBD4 /* RecipeDetailView.swift */; };
+		3E67A0E01BA7A0AEEF45743B /* Curriculum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC2FE18FC16855403202DA9 /* Curriculum.swift */; };
+		4225A8EC53229323CCF56134 /* ModuleListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D04A1E715D880F4F5935FA55 /* ModuleListView.swift */; };
+		506E55CF9DB4A09F5FE3A848 /* GlossaryTerm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D0EC21BE1A408FB8C35DFE6 /* GlossaryTerm.swift */; };
+		5771D578DF8E3E8E1AD1563C /* PracticeHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FCB960A6E3B89E8955DC4BF /* PracticeHomeView.swift */; };
+		6824AFD5F47BAC5923240E30 /* RootTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF4409BB50A83DD4C7A5948 /* RootTabView.swift */; };
+		6DE04CC8C2E937B667463FCE /* CurriculumData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6B5421A4B80B6C93AF18369 /* CurriculumData.swift */; };
+		86D9D5F7C2082120399ABDC4 /* CocktailData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 795B26E78AE62EBC6102D1A9 /* CocktailData.swift */; };
+		9FEFB01A201139D8039EC69C /* GlossaryData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2766D8B8FEF7A2B70AB1A9E /* GlossaryData.swift */; };
+		AE8BEFA6E7F4A374414795F2 /* Cocktail.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC2BFAD5584F93DB6C3E78B /* Cocktail.swift */; };
+		B1AA53BEE3DFFF09426D4636 /* LessonDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A60247D55B7DBF4CD065D9A /* LessonDetailView.swift */; };
+		CBBD2DFB1B8A9CB76F17CE29 /* CommonViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = E84FAE4D3723885D8DA1D81E /* CommonViews.swift */; };
+		E4DC44B51B7B5ADA51E5330B /* GlossaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A6CF2688F3A1D5BB7A1558C /* GlossaryView.swift */; };
+		E929278FD63CA0A1C68FB819 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 623EFCFB97B1D3BF030AC713 /* ProfileView.swift */; };
+		F696B24B5D4095E00491F63F /* RecipeListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C0B7A19675C5116F4A64AF0 /* RecipeListView.swift */; };
+		F8BE059DF6EF823DF26A75F6 /* QuizModeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0069F298918819441E71FAA7 /* QuizModeView.swift */; };
+		FAC64AF567E01AEF90500903 /* LessonQuizView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F291309EA004577A005F5F8 /* LessonQuizView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0069F298918819441E71FAA7 /* QuizModeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizModeView.swift; sourceTree = "<group>"; };
+		06F7FEDB4C29B11C64408CF7 /* BartenderAcademy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BartenderAcademy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		185DF681BCC47F84B5FCC0D3 /* UserProgress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProgress.swift; sourceTree = "<group>"; };
+		22CEB031B737CC94DC7F3CB1 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		2A60247D55B7DBF4CD065D9A /* LessonDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonDetailView.swift; sourceTree = "<group>"; };
+		2D0EC21BE1A408FB8C35DFE6 /* GlossaryTerm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlossaryTerm.swift; sourceTree = "<group>"; };
+		3A6CF2688F3A1D5BB7A1558C /* GlossaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlossaryView.swift; sourceTree = "<group>"; };
+		55103F1B811FD7388E4553F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		623EFCFB97B1D3BF030AC713 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		6EC82E2ACA27F901F6434F26 /* BartenderAcademyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BartenderAcademyApp.swift; sourceTree = "<group>"; };
+		6FCB960A6E3B89E8955DC4BF /* PracticeHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeHomeView.swift; sourceTree = "<group>"; };
+		795B26E78AE62EBC6102D1A9 /* CocktailData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CocktailData.swift; sourceTree = "<group>"; };
+		79BD72169A93660AA4E549FC /* Flashcard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flashcard.swift; sourceTree = "<group>"; };
+		8C0B7A19675C5116F4A64AF0 /* RecipeListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeListView.swift; sourceTree = "<group>"; };
+		8DC2FE18FC16855403202DA9 /* Curriculum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Curriculum.swift; sourceTree = "<group>"; };
+		90D92BDB0B045E1057A38B92 /* FlashcardDeckView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashcardDeckView.swift; sourceTree = "<group>"; };
+		9F291309EA004577A005F5F8 /* LessonQuizView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LessonQuizView.swift; sourceTree = "<group>"; };
+		A6B5421A4B80B6C93AF18369 /* CurriculumData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurriculumData.swift; sourceTree = "<group>"; };
+		ACF4409BB50A83DD4C7A5948 /* RootTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootTabView.swift; sourceTree = "<group>"; };
+		C20E2C42EE1CBEEB593BFBD4 /* RecipeDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetailView.swift; sourceTree = "<group>"; };
+		C8BB0A977AAE103F9D3F4BDC /* FlashcardData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashcardData.swift; sourceTree = "<group>"; };
+		D04A1E715D880F4F5935FA55 /* ModuleListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModuleListView.swift; sourceTree = "<group>"; };
+		E2766D8B8FEF7A2B70AB1A9E /* GlossaryData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlossaryData.swift; sourceTree = "<group>"; };
+		E84FAE4D3723885D8DA1D81E /* CommonViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonViews.swift; sourceTree = "<group>"; };
+		FDC2BFAD5584F93DB6C3E78B /* Cocktail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cocktail.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		19459BAE3CE200A743B79493 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				E84FAE4D3723885D8DA1D81E /* CommonViews.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		2CF8EA69C1376EE743F278F4 = {
+			isa = PBXGroup;
+			children = (
+				96437B7150C6AD6585DAE8E2 /* BartenderAcademy */,
+				CBBF47E94ECB56B562DEE254 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		40AC1177D6FC59BA520E4C1E /* Learn */ = {
+			isa = PBXGroup;
+			children = (
+				2A60247D55B7DBF4CD065D9A /* LessonDetailView.swift */,
+				9F291309EA004577A005F5F8 /* LessonQuizView.swift */,
+				D04A1E715D880F4F5935FA55 /* ModuleListView.swift */,
+			);
+			path = Learn;
+			sourceTree = "<group>";
+		};
+		44F489F3E7B14F56C0DA0649 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				6EC82E2ACA27F901F6434F26 /* BartenderAcademyApp.swift */,
+				ACF4409BB50A83DD4C7A5948 /* RootTabView.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		7C16FD133ABF4AAD82C0040D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FDC2BFAD5584F93DB6C3E78B /* Cocktail.swift */,
+				8DC2FE18FC16855403202DA9 /* Curriculum.swift */,
+				79BD72169A93660AA4E549FC /* Flashcard.swift */,
+				2D0EC21BE1A408FB8C35DFE6 /* GlossaryTerm.swift */,
+				185DF681BCC47F84B5FCC0D3 /* UserProgress.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		880B2D31CC69D801C6AC0027 /* Practice */ = {
+			isa = PBXGroup;
+			children = (
+				90D92BDB0B045E1057A38B92 /* FlashcardDeckView.swift */,
+				6FCB960A6E3B89E8955DC4BF /* PracticeHomeView.swift */,
+				0069F298918819441E71FAA7 /* QuizModeView.swift */,
+			);
+			path = Practice;
+			sourceTree = "<group>";
+		};
+		8BAAB48E727F0B050B2E92B6 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				C20E2C42EE1CBEEB593BFBD4 /* RecipeDetailView.swift */,
+				8C0B7A19675C5116F4A64AF0 /* RecipeListView.swift */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		937D78D3F0B1CAFB480077C0 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				CDF4022DF4C9452AC111414A /* Home */,
+				40AC1177D6FC59BA520E4C1E /* Learn */,
+				8BAAB48E727F0B050B2E92B6 /* Library */,
+				880B2D31CC69D801C6AC0027 /* Practice */,
+				AB410023D4DA359C5A351DE1 /* Profile */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		96437B7150C6AD6585DAE8E2 /* BartenderAcademy */ = {
+			isa = PBXGroup;
+			children = (
+				44F489F3E7B14F56C0DA0649 /* App */,
+				19459BAE3CE200A743B79493 /* Components */,
+				9F8D36713B56E69FF3EC31DC /* Data */,
+				937D78D3F0B1CAFB480077C0 /* Features */,
+				7C16FD133ABF4AAD82C0040D /* Models */,
+				ABB70CC0B1574BAE94FD8E1A /* Resources */,
+			);
+			path = BartenderAcademy;
+			sourceTree = "<group>";
+		};
+		9F8D36713B56E69FF3EC31DC /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				795B26E78AE62EBC6102D1A9 /* CocktailData.swift */,
+				A6B5421A4B80B6C93AF18369 /* CurriculumData.swift */,
+				C8BB0A977AAE103F9D3F4BDC /* FlashcardData.swift */,
+				E2766D8B8FEF7A2B70AB1A9E /* GlossaryData.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		AB410023D4DA359C5A351DE1 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				3A6CF2688F3A1D5BB7A1558C /* GlossaryView.swift */,
+				623EFCFB97B1D3BF030AC713 /* ProfileView.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		ABB70CC0B1574BAE94FD8E1A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				55103F1B811FD7388E4553F8 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		CBBF47E94ECB56B562DEE254 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				06F7FEDB4C29B11C64408CF7 /* BartenderAcademy.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CDF4022DF4C9452AC111414A /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				22CEB031B737CC94DC7F3CB1 /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3FFDC687E71F23161CF5E304 /* BartenderAcademy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BD3F5FB0C25D7306B5DD8A4 /* Build configuration list for PBXNativeTarget "BartenderAcademy" */;
+			buildPhases = (
+				833CEDA2773E71F67559F1AB /* Sources */,
+				4C6579197762D4EA08C25E69 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BartenderAcademy;
+			packageProductDependencies = (
+			);
+			productName = BartenderAcademy;
+			productReference = 06F7FEDB4C29B11C64408CF7 /* BartenderAcademy.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC2C1AE9C1F66F7D84DADD9F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					3FFDC687E71F23161CF5E304 = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 28B01B490D458CD84619A68C /* Build configuration list for PBXProject "BartenderAcademy" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 2CF8EA69C1376EE743F278F4;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = CBBF47E94ECB56B562DEE254 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3FFDC687E71F23161CF5E304 /* BartenderAcademy */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4C6579197762D4EA08C25E69 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DE799F753EA936B89E2E23B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		833CEDA2773E71F67559F1AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DEB4AB0B8B92EB4865F84D6 /* BartenderAcademyApp.swift in Sources */,
+				AE8BEFA6E7F4A374414795F2 /* Cocktail.swift in Sources */,
+				86D9D5F7C2082120399ABDC4 /* CocktailData.swift in Sources */,
+				CBBD2DFB1B8A9CB76F17CE29 /* CommonViews.swift in Sources */,
+				3E67A0E01BA7A0AEEF45743B /* Curriculum.swift in Sources */,
+				6DE04CC8C2E937B667463FCE /* CurriculumData.swift in Sources */,
+				389386C5466BCCAA55F7DD9E /* Flashcard.swift in Sources */,
+				2CB02A0DAD554629CB4DF375 /* FlashcardData.swift in Sources */,
+				135AEF7C6F1F2E57F606A456 /* FlashcardDeckView.swift in Sources */,
+				9FEFB01A201139D8039EC69C /* GlossaryData.swift in Sources */,
+				506E55CF9DB4A09F5FE3A848 /* GlossaryTerm.swift in Sources */,
+				E4DC44B51B7B5ADA51E5330B /* GlossaryView.swift in Sources */,
+				1777E680038139B3EEAA0325 /* HomeView.swift in Sources */,
+				B1AA53BEE3DFFF09426D4636 /* LessonDetailView.swift in Sources */,
+				FAC64AF567E01AEF90500903 /* LessonQuizView.swift in Sources */,
+				4225A8EC53229323CCF56134 /* ModuleListView.swift in Sources */,
+				5771D578DF8E3E8E1AD1563C /* PracticeHomeView.swift in Sources */,
+				E929278FD63CA0A1C68FB819 /* ProfileView.swift in Sources */,
+				F8BE059DF6EF823DF26A75F6 /* QuizModeView.swift in Sources */,
+				3CFA2FC520ABEC6C40A24B07 /* RecipeDetailView.swift in Sources */,
+				F696B24B5D4095E00491F63F /* RecipeListView.swift in Sources */,
+				6824AFD5F47BAC5923240E30 /* RootTabView.swift in Sources */,
+				3315A9CA7003E8C9AD9BD683 /* UserProgress.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0DB7A29EB59DDE5511DAF337 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = HG8Q9DC236;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Generated-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.spmedhelp.bartenderacademy;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1860C4A8EAE7CC3E43E7B1DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = HG8Q9DC236;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Generated-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.spmedhelp.bartenderacademy;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		255C710BD479C9EDCF8CAC7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		C920EF2D2CCD81FFF989ABAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		28B01B490D458CD84619A68C /* Build configuration list for PBXProject "BartenderAcademy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C920EF2D2CCD81FFF989ABAD /* Debug */,
+				255C710BD479C9EDCF8CAC7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		5BD3F5FB0C25D7306B5DD8A4 /* Build configuration list for PBXNativeTarget "BartenderAcademy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1860C4A8EAE7CC3E43E7B1DF /* Debug */,
+				0DB7A29EB59DDE5511DAF337 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FC2C1AE9C1F66F7D84DADD9F /* Project object */;
+}
